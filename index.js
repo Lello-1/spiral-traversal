@@ -14,18 +14,7 @@
 // traverseSpirally(string) -> '1,2,3,6,9,8,7,4,5'
 
 function traverseSpirally (matrix) {
-  const breaks = matrix.split(/(\n)+/);
-  let traverse;
-
-  console.log('split string', breaks);
   
-
-  for (let i = 0; i < breaks.length; i++) {
-    
-    traverse = traverse + breaks[i];
-    
-    console.log('traversed string', traverse);
-  }
 }
 
 module.exports = traverseSpirally;
